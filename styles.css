@@ -1,42 +1,62 @@
 body {
-    background-image: url("images/papper.PNG");
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 1000px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-  }
+  background-image: url("images/papper.PNG");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* Set full viewport height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
-  .title{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Take full height of the body */
+}
 
-  .tokenomics{
-    margin-top: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
+.title   {
+  width:40%;
+}
 
-  .buyButton{
-    margin-top: 37%;
-    float: right;
-  }
+.links{
+  width: 40%;
+}
 
-  .links{
-    margin-top: 47%;
-    margin-left: 10px;
-    
+.doodle{
+  width: 40%;
+  float: right;
+  margin-right: 200px;
+}
 
-  }
+.buyButton{
+  width: 40%;
+  float: right;
+} 
 
-  .l-Buttons{
-    width: 100px;
-    height: 70px;
-    
-    padding-left: 15px;
-  }
+.tokenomics{
+  width: 40%;
+}
+
+.links {
+  margin-top: 500px; /* Adjust as needed */
+}
+
+.l1-Buttons {
+  width: 100px;
+  height: 70px;
+  padding-left: 15px;
+}
+
+@keyframes shake-horizontal {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes bounce-vertical {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
