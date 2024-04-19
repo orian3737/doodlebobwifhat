@@ -15,6 +15,7 @@ body {
   height: 100%; /* Take full height of the body */
 }
 
+
 .title   {
   width:40%;
 }
@@ -60,3 +61,44 @@ body {
   50% { transform: translateY(-20px); }
   100% { transform: translateY(0); }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+}
+#comment-board {
+  border: 2px solid black;
+  padding: 20px;
+  background: white;
+}
+#comments {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+input, textarea, button {
+  display: block;
+  margin: 10px 0;
+  width: 95%;
+}
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: grey;
+}
+.comment-item {
+  margin-top: 10px;
+  padding: 5px;
+  border-bottom: 1px dashed black;
+}
+.heart {
+  color: red;
+  cursor: pointer;
+}
+

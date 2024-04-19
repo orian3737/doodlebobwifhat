@@ -1,0 +1,40 @@
+{
+  "comments": [
+    {
+      "id": "1",
+      "username": "Solana_Soldier101",
+      "text": "Solana is going to the moon.",
+      "likes": 5
+    },
+    {
+      "id": "2",
+      "username": "BTC_Bob76",
+      "text": "You're crazy have you seen BTC's Price.",
+      "likes": 8
+    },
+    {
+      "id": "3",
+      "username": "Moon_Miner22",
+      "text": "I loce Cardao.. I know hot take lol.",
+      "likes": 0
+    },
+    {
+      "id": "4",
+      "username": "That-Crypto_Mogul",
+      "text": "You guys are nuts buy DoodleBobWifHat!!! LFG!",
+      "likes": 35
+    },
+    {
+      "id": "5",
+      "username": "Joe_Baller",
+      "text": "DOODLEBOBWH all The Way.",
+      "likes": 20
+    },
+    {
+      "id": "6",
+      "username": "Darrel56",
+      "text": "DBWH to the Moon baby!",
+      "likes": 10
+    }
+  ]
+}
