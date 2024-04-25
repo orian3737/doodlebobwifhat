@@ -1,7 +1,7 @@
 body {
   background-image: url("images/papper.PNG");
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 100vh; /* Set full viewport height */
+  background-color: #0a0101; /* Used if the image is unavailable */
+  height: 300vh; /* Set full viewport height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -34,8 +34,30 @@ body {
   float: right;
 } 
 
+.tokens{
+  float: right;
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
 .tokenomics{
   width: 40%;
+  margin-top: 40px;
+  float: right;
+}
+
+.h69{
+  margin-left:390px;
+}
+
+.g69{
+  margin-left: 80px;
+}
+
+.j6969{
+  margin-left: 180px;
+  margin-top: 140px;
 }
 
 .links {
