@@ -42,8 +42,16 @@ body {
 }
 
 .tokenomics{
-  width: 40%;
-  margin-top: 40px;
+  padding-right: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+} 
+
+.Dex{
+  margin-left: 150px;
+  width: 300px;
 }
 
 .h69{
